@@ -27,6 +27,8 @@
 | ![Screenshot](./screenshots/Screenshot_login_1.png) | ![Screenshot](./screenshots/Screenshot_login_2.png) | ![Screenshot](./screenshots/Screenshot_login_3.png) |
 |-|-|-|
 
+---
+
 ### Страница поиска
 
 Реализовано:
@@ -37,6 +39,8 @@
 | ![Screenshot](./screenshots/Screenshot_search_1.png)| ![Screenshot](./screenshots/Screenshot_search_2.png) | ![Screenshot](./screenshots/Screenshot_search_3.png) |
 |-|-|-|
 
+---
+
 ### Страница профиля
 
 Реализовано:
@@ -46,6 +50,41 @@
 | ![Screenshot](./screenshots/Screenshot_profile_1.png)| ![Screenshot](./screenshots/Screenshot_profile_2.png) | ![Screenshot](./screenshots/Screenshot_profile_3.png) |
 |-|-|-|
 
+---
+
 ### Страница 404
 
 ![Screenshot](./screenshots/Screenshot_404.png)
+
+---
+
+### Дерево проекта
+```
+site
+├── .gitignore
+├── 404
+│   └── 404.html
+├── README.md
+├── api
+│   ├── go.mod
+│   ├── go.sum
+│   └── main.go
+├── auth
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+├── images
+│   └── ...
+├── main.css
+├── profile
+│   ├── profile.css
+│   └── profile.html
+├── screenshots
+│   └── ...
+└── search
+    ├── search.css
+    ├── search.html
+    └── search.js
+
+7 directories, 67 files
+```
