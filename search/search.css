@@ -1,0 +1,93 @@
+.main {
+    padding: 20px;
+}
+
+.filter-container {
+    display: flex;             /* Делаем контейнер flex-контейнером */
+    flex-direction: column;    /* Ориентация по вертикали */
+    align-items: center;       /* Выравнивание по центру по горизонтали */
+    border: 1px solid #ccc;   /* Граница контейнера */
+}
+
+.filter-block0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+button {
+    margin: 30px;
+    padding: 10px 20px;
+    background: #f8b400;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #f8971d;
+}
+
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 8px;
+}
+
+.user-grid img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .filter-block0 {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 464px) { 
+    .user-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 619px) { 
+    .user-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 825px) { 
+    .user-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 1467px) { 
+    .user-grid {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+@media (min-width: 1956px) { 
+    .user-grid {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media (min-width: 2608px) { 
+    .user-grid {
+        grid-template-columns: repeat(9, 1fr);
+    }
+}

@@ -1,0 +1,66 @@
+.profile {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.about-me p, .tags ul {
+    margin: 10px 0;
+}
+
+.tags ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tags li {
+    display: inline-flex;
+    background: #e2e2e2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.photos {
+    margin-top: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.photo-grid img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8b400;
+    padding: 20px;
+}
+
+.logo {
+    color: #956200;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+    color: #956200;
+}
+
+.nav-item-active {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav p {
+    margin: 0px 8px 0px 0px;
+}
+
+@media (max-width: 440px) {
+    .nav p {
+        display: none;
+    }
+}
