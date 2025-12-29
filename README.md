@@ -37,7 +37,7 @@
 | ![Screenshot](./screenshots/Screenshot_search_1.png)| ![Screenshot](./screenshots/Screenshot_search_2.png) | ![Screenshot](./screenshots/Screenshot_search_3.png) |
 |-|-|-|
 
-### Страница поиска
+### Страница профиля
 
 Реализовано:
 - Адаптивный дизайн для разных типов экранов
